@@ -1,6 +1,11 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
 
 /* font-family: 'Sacramento', cursive; */
 @layer base {
@@ -8,6 +13,14 @@
 font-family: 'Lexend Deca', sans-serif;
 }
   }
+
+  .myName{
+    font-family: 'Sacramento', cursive;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+
 
 body{
     background-color: #1B2430;

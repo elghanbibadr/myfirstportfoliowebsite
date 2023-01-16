@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "index.html./src/**/*.{js,jsx,}",
+    "./src/**/*.{js,jsx}",
   ],
   darkMode:'class',
   theme: {
@@ -9,11 +9,11 @@ module.exports = {
         padding: '2rem',
          center:true
       },
-      colors: {
-        "white":"#fff",
-        "bodyBg":"#1B2430",
-        'regalBlue': '#243c5a',
-      },
+      // colors: {
+      //   "white":"#fff",
+      //   "bodyBg":"#1B2430",
+      //   'regalBlue': '#243c5a',
+      // },
     
   },
   plugins: [],
