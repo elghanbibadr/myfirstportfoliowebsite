@@ -43,4 +43,6 @@ h1{
     background-image: linear-gradient(60deg, #3792e4, #f43b60);
     background-clip: text;
     color: transparent;
+    line-height:1.4 ;
+ 
 }
