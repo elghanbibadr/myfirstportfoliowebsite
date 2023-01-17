@@ -1,14 +1,20 @@
 import React from 'react'
 import badr from '../../assets/badr.jpg'
 import Typewriter from 'typewriter-effect';
-import { motion } from 'framer-motion';
+import { motion, useTime, useTransform } from 'framer-motion';
+import hand from '../../assets/hand.svg'
 const Hero = () => {
 
   return (
     <section className='hero my-20  md:grid items-center grid-cols-2' >
-      <div  className='text-center md:text-left'>
+      <div className='text-center md:text-left'>
         <h1 className='text-2xl  font-bold leading-10 md:text-6xl '>
-          HI, MY NAME IS Badr Ghanbi.
+          HI, MY NAME IS Badr Ghanbi
+          <motion.img whileHover={{ scale: 1.3 }}
+            animate={{ rotate: [-40, 40] }}
+            transition={{ duration: 2, repeat: Infinity }}
+            className='w-6 mx-4 h-8 inline' src={hand} alt='hand' />
+            
           <Typewriter
             options={{
               strings: [' I Am A Front-End Developer. '],
