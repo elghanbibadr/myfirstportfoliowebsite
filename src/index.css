@@ -20,7 +20,9 @@ font-family: 'Lexend Deca', sans-serif;
     cursor: pointer;
   }
 
-
+img,svg{
+  cursor: pointer;
+}
 
 body{
     background-color: #1B2430;
