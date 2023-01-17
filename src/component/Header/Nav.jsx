@@ -17,10 +17,10 @@ const Nav = () => {
   }
 
   return (
-    <nav className="flex pt-8 items-center justify-between   text-white">
+    <nav className="flex  pt-8 items-center justify-between   text-white md:relative">
       <h4 className='myName'>Badr Ghanbi</h4>
       {menuOpen && (
-        <div className="absolute m-6  inset-0 bg-gray-800 px-10 py-4  md:hidden">
+        <div className="absolute m-6 z-50 inset-0 bg-gray-800 px-10 py-4  md:hidden">
           <div className="flex justify-between">
             <h4 className='myName'>Badr Gh</h4>
             <CloseIcon onClick={handleCloseClick} />
@@ -28,11 +28,11 @@ const Nav = () => {
           <List linkStyle='mt-8' className='listForMobile mt-10' />
         </div>
       )}
-      <div className="flex items-center md:hidden">
-        <Menu onClick={handleMenuClick} />
-        <SunIcon />
+      <div className="flex items-center">
+        <Menu  className='w-6 h-4 md:hidden' onClick={handleMenuClick} />
+        <SunIcon className='w-8 ml-4 h-8 md:absolute -right-6 '  />
       </div>
-      <List linkStyle='lg:ml-8' className="listForDesktop hidden md:flex" />
+      <List linkStyle='lg:mx-6' className="listForDesktop hidden md:flex" />
 
     </nav>
   );
