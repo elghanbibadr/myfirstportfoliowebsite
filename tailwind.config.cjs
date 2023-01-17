@@ -6,7 +6,7 @@ module.exports = {
   darkMode:'class',
   theme: {
       container: {
-        padding: '1rem',
+        padding: '2rem',
          center:true
       },
       // colors: {

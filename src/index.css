@@ -31,6 +31,11 @@ body{
     background-color: #1B2430;
 }
 
+.imgWrraper{
+  
+  background-image: linear-gradient(60deg, #3792e4, #f43b60);
+
+}
 /* TYPOGRAPHY CUSTOMIZING */
 
 h1{

@@ -17,7 +17,7 @@ const Nav = () => {
   }
 
   return (
-    <nav className="flex items-center justify-between p-4  text-white">
+    <nav className="flex items-center justify-between   text-white">
       <h4 className='myName'>Badr Gh</h4>
       {menuOpen && (
         <div className="absolute m-6  inset-0 bg-gray-800 px-10 py-4  md:hidden">
