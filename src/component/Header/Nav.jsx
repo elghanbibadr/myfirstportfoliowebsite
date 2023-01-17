@@ -25,14 +25,14 @@ const Nav = () => {
             <h4 className='myName'>Badr Gh</h4>
             <CloseIcon onClick={handleCloseClick} />
           </div>
-          <List className='listForMobile mt-10' />
+          <List linkStyle='mt-8' className='listForMobile mt-10' />
         </div>
       )}
       <div className="flex items-center md:hidden">
         <Menu onClick={handleMenuClick} />
         <SunIcon />
       </div>
-      <List className="listForDesktop hidden md:flex" />
+      <List linkStyle='lg:ml-8' className="listForDesktop hidden md:flex" />
 
     </nav>
   );

@@ -20,6 +20,9 @@ font-family: 'Lexend Deca', sans-serif;
     cursor: pointer;
   }
 
+  img{
+    object-fit: cover;
+  }
 img,svg{
   cursor: pointer;
 }
