@@ -3,7 +3,7 @@ import TagCloud from 'TagCloud';
 
 const Skills = () => { 
   const [option, setOption] = useState({
-    radius: 200,
+    radius: 220,
     maxSpeed: "fast",
     initSpeed: "normal",
     keep: true,
@@ -11,20 +11,9 @@ const Skills = () => {
     direction: 100
   });
 
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth > 700) {
-        setOption({ ...option, radius:400});
-      }
-    };
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-      console.log('effect 1 ruuning')
-    };
-  }, [option]);
 
   useEffect(() => {
+ 
     return()=>{
       const container = ".tagcloud";
       const texts = [
@@ -44,12 +33,11 @@ const Skills = () => {
         "GITHUB",
         "FRAMER MOTION"
       ];
-      console.log('runung')
   
       TagCloud(container, texts, option);
 
     }
-  }, [handleResize]);
+  }, []);
 
   return (
     <section className='skills flex p-8 flex-col items-center justify-center'>
