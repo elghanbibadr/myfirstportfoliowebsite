@@ -6,7 +6,7 @@ import hand from '../../assets/hand.svg'
 const Hero = () => {
 
   return (
-    <section className='hero my-20  md:grid items-center grid-cols-2' >
+    <section className='hero my-20  lg:grid items-center grid-cols-2' >
       <div className='text-center md:text-left'>
         <h1 className='text-2xl  font-bold leading-10 md:text-6xl '>
           HI, MY NAME IS Badr Ghanbi
@@ -14,7 +14,7 @@ const Hero = () => {
             animate={{ rotate: [-40, 40] }}
             transition={{ duration: 2, repeat: Infinity }}
             className='w-6 mx-4 h-8 inline' src={hand} alt='hand' />
-            
+
           <Typewriter
             options={{
               strings: [' I Am A Front-End Developer. '],
