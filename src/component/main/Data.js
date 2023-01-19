@@ -3,6 +3,7 @@ import devJobs from '../../assets/devJobs.png'
 import invoiceapp from '../../assets/invoiceapp.png'
 import shortenUrl from '../../assets/shortenUrl.png'
 import passwordGenerator from '../../assets/passwordGenerator.png'
+import coffeSubscription from '../../assets/coffeSubscription.png'
 export const data=[
     {
      name:"Multi Step Form",
@@ -31,6 +32,12 @@ export const data=[
     {
      name:"Password Generator",
      src:passwordGenerator,
+     desc:' A JavaScript password generator app would be a program that uses JavaScript code to generate a random password for the user. The app could include options for the user to specify the length and complexity of the password, as well as any specific characters or patterns they would like to include.',
+     technologie:["html","Sass","Javascript"]
+    },
+    {
+     name:"Coffeeroasters Subscription  Site",
+     src:coffeSubscription,
      desc:' A JavaScript password generator app would be a program that uses JavaScript code to generate a random password for the user. The app could include options for the user to specify the length and complexity of the password, as well as any specific characters or patterns they would like to include.',
      technologie:["html","Sass","Javascript"]
     },
