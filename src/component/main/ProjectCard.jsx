@@ -11,8 +11,8 @@ const ProjectCard = (props) => {
               return <li className='bg-regalBlue text-sm   p-2 md:text-xl'>{tech}</li>
             })}</ul>
             <div className="links flex justify-between mt-4">
-              <a className='' href={props.href}>View</a>
-                <a className='' href={props.href}>Code</a>
+              <a className='' target='_blank' href={props.demoLink}>View</a>
+              <a className='' target='_blank' href={props.githubLink}>Code</a>
                 
               </div>
        </div>
