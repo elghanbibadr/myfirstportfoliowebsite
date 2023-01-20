@@ -10,7 +10,7 @@ export const data=[
      src:multiStepFormDesign,
      desc:"A multi-step form is a web-based interface that allows users to complete a complex process in a step-by-step manner. These forms typically include several sections, each with its own set of fields and instructions",
      technologie:["html","css","React","formik"],
-     demoLink:'https://invoiceapp19.netlify.app',
+     demoLink:'https://grand-fenglisu-87ba76.netlify.app',
      githubLink:'https://github.com/elghanbibadr/MultiStepForm',
     },
     {
@@ -42,15 +42,15 @@ export const data=[
      src:passwordGenerator,
      desc:' A JavaScript password generator app would be a program that uses JavaScript code to generate a random password for the user. The app could include options for the user to specify the length and complexity of the password, as well as any specific characters or patterns they would like to include.',
      technologie:["html","Sass","Javascript"],
-     demoLink:'https://devjobs12.netlify.app/',
-     githubLink:'https://github.com/elghanbibadr/invoiceapp',
+     demoLink:'https://myapasswordgeneratorapp.netlify.app/',
+     githubLink:'https://github.com/elghanbibadr/passwordGeneratorApp',
     },
     {
      name:"Coffeeroasters Subscription  Site",
      src:coffeSubscription,
      desc:' A JavaScript password generator app would be a program that uses JavaScript code to generate a random password for the user. The app could include options for the user to specify the length and complexity of the password, as well as any specific characters or patterns they would like to include.',
      technologie:["html","Sass","Javascript"],
-     demoLink:'https://devjobs12.netlify.app/',
-     githubLink:'https://github.com/elghanbibadr/invoiceapp',
+     demoLink:'https://coffe-toaster-app.netlify.app',
+     githubLink:'https://github.com/elghanbibadr/coffe-toasterr-app',
     },
 ]
