@@ -40,7 +40,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <section className='skills flex p-8 flex-col items-center justify-center'>
+    <section id='skills' className='skills flex p-8 flex-col items-center justify-center'>
       <h2 className='text-white font-bold text-xl md:text-3xl'>Skills</h2>
       <div className="tagCloudWrraper">
         <span className='tagcloud'/> 

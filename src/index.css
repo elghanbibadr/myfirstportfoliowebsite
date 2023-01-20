@@ -77,7 +77,7 @@ a{
   cursor: pointer;
   transition: .4s ease-in-out;
 }
-a:hover{
+.projectLinkInfo:hover{
   transform: scale(1.1);
 }
 .imgWrraper{
@@ -96,7 +96,7 @@ h1,h3{
  
 }
 
-a::after{
+.projectLinkInfo::after{
   content:url('../src/assets/arrow-right-solid\ \(2\).svg');
   display: inline-block;
   height: 14px;
