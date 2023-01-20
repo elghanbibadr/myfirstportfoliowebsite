@@ -73,6 +73,10 @@ body{
 }
 a{
   cursor: pointer;
+  transition: .4s ease-in-out;
+}
+a:hover{
+  transform: scale(1.1);
 }
 .imgWrraper{
   
@@ -81,13 +85,23 @@ a{
 }
 /* TYPOGRAPHY CUSTOMIZING */
 
-h1{
+h1,h3{
    
     background-image: linear-gradient(60deg, #3792e4, #f43b60);
     background-clip: text;
     color: transparent;
     line-height:1.4 ;
  
+}
+
+a::after{
+  content:url('../src/assets/arrow-right-solid\ \(2\).svg');
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  margin-left: 10px;
+  transform: translateY(2px);
+  
 }
 
 
