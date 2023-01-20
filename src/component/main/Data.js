@@ -1,33 +1,33 @@
 import multiStepFormDesign from '../../assets/multiStepProjectImage.jpg'
 import devJobs from '../../assets/devJobs.png'
 import invoiceapp from '../../assets/invoiceapp.png'
-import shortenUrl from '../../assets/shortenUrl.png'
+import shortenUrlCrpd  from '../../assets/shortenUrlCrpd.png'
 import passwordGenerator from '../../assets/passwordGenerator.png'
 import coffeSubscription from '../../assets/coffeSubscription.png'
 export const data=[
     {
      name:"Multi Step Form",
      src:multiStepFormDesign,
-     desc:"A multi-step form is a web-based interface that allows users to complete a complex process in a step-by-step manner. These forms typically include several sections, each with its own set of fields and instructions, that guide the user through the process of providing information and making selections.",
-     technologie:["html","css","React","responsiveDesign","formik"]
+     desc:"A multi-step form is a web-based interface that allows users to complete a complex process in a step-by-step manner. These forms typically include several sections, each with its own set of fields and instructions",
+     technologie:["html","css","React","formik"]
     },
     {
      name:"devJobs",
      src:devJobs,
-     desc:' front-end web application built using React.js that allows users to search for technology jobs using various filters such as job name, location, and job type (full-time or part-time). It also includes a feature where users can view detailed information about a selected job ',
-     technologie:["html","tailwind","responsiveDesign","React"]
+     desc:' front-end web application built using React.js that allows users to search for technology jobs using various filters such as job name, location, and job type (full-time or part-time) and provide details for each  ',
+     technologie:["html","tailwind","React"]
     },
     {
      name:"Invoice App",
      src:invoiceapp,
-     desc:' front-end web application that allows users to manage and track their invoices. Users can add or delete invoices, view the status of their invoices (pending, paid, or draft), and view detailed information about the invoices and their owners. The application is designed to help users keep track of their financial transactions and manage their invoicing process.',
-     technologie:["html","Tailwind","React","responsiveDesign"]
+     desc:' front-end web application that allows users to manage and track their invoices. Users can add or delete invoices, view the status of their invoices (pending, paid, or draft), and view detailed information about the invoices and their owners.',
+     technologie:["html","Tailwind","React"]
     },
     {
      name:"UrlShorteningApp",
-     src:shortenUrl,
-     desc:'React shortening URL app is a web application that allows users to input a long URL and receive a shortened version of that URL in return. The shortened URL redirects to the original URL when clicked on. The application is built using the React JavaScript library',
-     technologie:["html","Sass","React","axios"]
+     src:shortenUrlCrpd,
+     desc:'React shortening URL app is a web application that allows users to input a long URL and receive a shortened version of that URL in return. The shortened URL redirects to the original URL when clicked on',
+     technologie:["html","Sass","React",,"axios"]
     },
     {
      name:"Password Generator",

@@ -20,12 +20,12 @@ const Nav = () => {
     <nav className="flex  pt-8 items-center justify-between   text-white md:relative">
       <h4 className='myName'>Badr Ghanbi</h4>
       {menuOpen && (
-        <div className="absolute m-6 z-50 inset-0 bg-gray-800 px-10 py-4  md:hidden">
+        <div className="absolute m-6 z-50 inset-0 bg-secondColor px-10 py-4  md:hidden">
           <div className="flex justify-between">
             <h4 className='myName'>Badr Gh</h4>
             <CloseIcon onClick={handleCloseClick} />
           </div>
-          <List linkStyle='mt-8' className='listForMobile mt-10' />
+          <List linkStyle='mt-8' className='listForMobile  mt-10' />
         </div>
       )}
       <div className="flex items-center">

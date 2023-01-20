@@ -1,7 +1,7 @@
 import React from 'react'
 import badr from '../../assets/badr.jpg'
 import Typewriter from 'typewriter-effect';
-import { motion, useTime, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 import hand from '../../assets/hand.svg'
 const Hero = () => {
 
