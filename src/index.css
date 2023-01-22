@@ -153,3 +153,11 @@ section{
   justify-content: center;
   align-items: center;
 }
+
+
+input,textarea{
+  background-color: rgb(31 41 55);
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+}
