@@ -155,9 +155,19 @@ section{
 }
 
 
+.submitForm{
+  border: 2px solid #3792e4;
+  padding: 8px 16px;
+  margin-top: 2rem;
+ 
+}
+
 input,textarea{
   background-color: rgb(31 41 55);
-  padding: 10px;
+  padding: 12px ;
   margin: 10px;
+  outline: none;
+  border: none;
   width: 80%;
+  color: white;
 }

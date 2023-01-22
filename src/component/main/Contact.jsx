@@ -19,9 +19,9 @@ const Contact = () => {
     console.log(formData);
   };
   return (
-    <section id='contact' >
-      <h2 className='text-white font-bold text-xl md:text-3xl'>Contact Me</h2>
-    <form onSubmit={handleSubmit}>
+    <section id='contact' className='md:w-3/4 mx-auto text-center' >
+      <h2 className='text-white mb-10 font-bold text-xl md:text-3xl'>Contact Me</h2>
+    <form target="_blank" action="https://formsubmit.co/bghanbi50@gmail.com" method="POST" onSubmit={handleSubmit}>
       <label>
         <input
           type="text"
@@ -39,7 +39,7 @@ const Contact = () => {
           name="email"
           value={formData.email}
           onChange={handleChange}
-          placeholder='Name'
+          placeholder='Email'
         />
       </label>
       <br />
@@ -49,7 +49,7 @@ const Contact = () => {
           name="subject"
           value={formData.subject}
           onChange={handleChange}
-          placeholder='Name'
+          placeholder='Subject'
         />
       </label>
       <br />
@@ -58,11 +58,11 @@ const Contact = () => {
           name="message"
           value={formData.message}
           onChange={handleChange}
-          placeholder='Name'
+          placeholder='Write Message'
         />
       </label>
       <br />
-      <button type="submit">Submit</button>
+      <button className='text-white submitForm' type="submit">Submit</button>
     </form> 
     </section>
   )

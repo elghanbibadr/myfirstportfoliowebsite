@@ -14,7 +14,8 @@ module.exports = {
         "bodyBg":"#1B2430",
         'regalBlue': '#243c5a',
         "black":"#000",
-        "secondColor":"rgb(31 41 55/1)"
+        "secondColor":"rgb(31 41 55/1)",
+        "cyan":'#3792e4'
       },
     
   },
