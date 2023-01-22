@@ -124,3 +124,32 @@ p{
 section{
   margin-block: 4rem;
 }
+
+
+/*  */
+.ball {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+}
+
+@keyframes bounce {
+  0%,  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(22px);
+  }
+  
+}
+
+.bouncingallWrraper{
+  border: 1px solid white;
+  width: 30px;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
