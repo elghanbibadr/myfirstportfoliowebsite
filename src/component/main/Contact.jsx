@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <section id='contact' className='md:w-3/4 mx-auto text-center' >
       <h2 className='text-white mb-10 font-bold text-xl md:text-3xl'>Contact Me</h2>
-    <form target="_blank" action="https://formsubmit.co/bghanbi50@gmail.com" method="POST" onSubmit={handleSubmit}>
+    <form  action="https://formsubmit.co/bghanbi50@gmail.com" method="POST" onSubmit={handleSubmit}>
         <input
           type="text"
           name="name"
