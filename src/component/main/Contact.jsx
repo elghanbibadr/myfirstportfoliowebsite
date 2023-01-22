@@ -31,9 +31,7 @@ const Contact = () => {
 
         />
       <br />
-      <input type="hidden" name="_next" value="thankU.htm" />
 
-      <br />
         <input
           type="email"
           name="email"
