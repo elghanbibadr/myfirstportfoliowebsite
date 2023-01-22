@@ -16,7 +16,7 @@ const Contact = () => {
   };
   const handleSubmit = (event) => {
     // event.preventDefault();
-    console.log('submmited')
+    console.log('yoo')
   };
   return (
     <section id='contact' className='md:w-3/4 mx-auto text-center' >
