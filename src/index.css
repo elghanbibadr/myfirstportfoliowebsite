@@ -95,6 +95,14 @@ h1,h3{
     line-height:1.4 ;
  
 }
+h3{
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+p{
+  color: white;
+}
 
 .projectLinkInfo::after{
   content:url('../src/assets/arrow-right-solid\ \(2\).svg');
@@ -109,4 +117,10 @@ h1,h3{
 
 p{
   line-height: 1.7 !important;
+}
+
+
+/* important */
+section{
+  margin-block: 4rem;
 }

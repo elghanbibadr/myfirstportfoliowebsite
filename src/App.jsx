@@ -9,7 +9,7 @@ const App = () => {
     <Nav/>
     <Hero />
     <Main/>
-    <Footer/>
+    {/* <Footer/> */}
    </div>
   )
 }
