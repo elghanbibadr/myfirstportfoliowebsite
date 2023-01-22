@@ -15,14 +15,13 @@ const Contact = () => {
     });
   };
   const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log(formData);
+    // event.preventDefault();
+    console.log('submmited')
   };
   return (
     <section id='contact' className='md:w-3/4 mx-auto text-center' >
       <h2 className='text-white mb-10 font-bold text-xl md:text-3xl'>Contact Me</h2>
     <form target="_blank" action="https://formsubmit.co/bghanbi50@gmail.com" method="POST" onSubmit={handleSubmit}>
-      <label>
         <input
           type="text"
           name="name"
@@ -31,9 +30,7 @@ const Contact = () => {
           placeholder='Name'
 
         />
-      </label>
       <br />
-      <label>
         <input
           type="email"
           name="email"
@@ -41,9 +38,7 @@ const Contact = () => {
           onChange={handleChange}
           placeholder='Email'
         />
-      </label>
       <br />
-      <label>
         <input
           type="text"
           name="subject"
@@ -51,16 +46,13 @@ const Contact = () => {
           onChange={handleChange}
           placeholder='Subject'
         />
-      </label>
       <br />
-      <label>
         <textarea
           name="message"
           value={formData.message}
           onChange={handleChange}
           placeholder='Write Message'
         />
-      </label>
       <br />
       <button className='text-white submitForm' type="submit">Submit</button>
     </form> 
