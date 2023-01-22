@@ -15,8 +15,9 @@ const Contact = () => {
     });
   };
   const handleSubmit = (event) => {
-    // event.preventDefault();
+   event.preventDefault();
     console.log('yoo')
+    console.log((Object.values(formData).some(value=>value==="")))
   };
   return (
     <section id='contact' className='md:w-3/4 mx-auto text-center' >
