@@ -32,8 +32,7 @@ const Skills = React.memo(() => {
       itemClass: 'tagItems',
       direction: 100
     }
-
-  return ()=>  TagCloud(containerRef.current, texts, option);
+ return ()=> TagCloud(containerRef.current, texts, option);
   }, []);
 
   return (
