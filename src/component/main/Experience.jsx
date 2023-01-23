@@ -6,7 +6,7 @@ const Experience = () => {
   Aos.init()
   return (
     <section className="experience  text-center flex flex-col items-center">
-        <h2 className='text-xl text-white p-8 md:text-2xl' >Experience</h2>
+        <h2 className='text-xl text-white p-8 md:text-3xl' >Experience</h2>
         <div data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1000" className='  p-10 md:w-3/4'>

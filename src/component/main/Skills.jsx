@@ -23,9 +23,8 @@ const Skills = React.memo(() => {
       "FRAMER MOTION"
     ];
 
-    console.log('runnuing')
     const option={
-      radius: 220,
+      radius: 200,
       maxSpeed: "fast",
       initSpeed: "normal",
       keep: true,
@@ -37,7 +36,7 @@ const Skills = React.memo(() => {
 
   return (
     <section id='skills' className='skills flex p-8 flex-col items-center justify-center'>
-      <h2 className='text-white font-bold text-xl md:text-3xl'>Skills</h2>
+      <h2 className='text-white  text-xl md:text-3xl'>Skills</h2>
       <div className="tagCloudWrraper">
         <span ref={containerRef} className='tagcloud'/> 
       </div>

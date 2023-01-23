@@ -37,7 +37,7 @@ const Contact = () => {
 
   return (
     <section id='contact' className='md:w-3/4 mx-auto text-center' >
-      <h2 className='text-white mb-10 font-bold text-xl md:text-3xl'>Contact Me</h2>
+      <h2 className='text-white mb-10  text-xl md:text-3xl'>Contact Me</h2>
     <form  action="https://formsubmit.co/bghanbi50@gmail.com" method="POST" onSubmit={handleSubmit}>
         <input
           type="text"
@@ -72,9 +72,7 @@ const Contact = () => {
           placeholder='Write Message'
         />
       <br />
-      <motion.div     whileHover={{ scale: 1.1 }}    >
-      <button className='text-white submitForm' type="submit">Submit</button>
-      </motion.div>
+      <motion.button  whileHover={{ scale: 1.1 }} className='text-white px-20 submitForm' type="submit">Submit</motion.button>
       
 
     </form> 
