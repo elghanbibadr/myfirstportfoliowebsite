@@ -25,7 +25,7 @@ const Contact = () => {
       return;
     }else{
       setShowError(false)
-      console.log("subited")
+      myForm.submit();
     }
   };
 

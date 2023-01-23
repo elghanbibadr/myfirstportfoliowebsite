@@ -3,7 +3,6 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx}",
   ],
-  darkMode:'class',
   theme: {
       container: {
         padding: '2rem',
@@ -15,7 +14,7 @@ module.exports = {
         'regalBlue': '#243c5a',
         "black":"#000",
         "secondColor":"rgb(31 41 55/1)",
-        "cyan":'#3792e4'
+        "cyan":'#3792e4',
       },
     
   },
