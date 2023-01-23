@@ -1,7 +1,11 @@
 import React from 'react'
+import AOS from 'aos';
+import "aos/dist/aos.css"
 const ProjectCard = (props) => {
+  AOS.init();
+
   return (
-    <div className='  flex flex-col   mx-auto  bg-secondColor text-white    m-4 md:w-3/4 '>
+    <div data-aos={props.fadeDirection} className='  flex flex-col   mx-auto  bg-secondColor text-white    m-4 md:w-3/4 '>
      <div className='p-4 projectImg-wrraper h-80'><img className='rounded-md h-full  mx-auto' src={props.src} /></div>
      <div className="p-4">
        <h3 className='text-xl font-medium my-6 md:text-2xl'>{props.name}</h3>

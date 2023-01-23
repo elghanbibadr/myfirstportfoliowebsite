@@ -8,6 +8,7 @@ module.exports = {
         padding: '2rem',
          center:true
       },
+      // badrghanbiporftfolio.
       colors: {
         "white":"#fff",
         "bodyBg":"#1B2430",
