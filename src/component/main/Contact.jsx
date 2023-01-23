@@ -72,7 +72,11 @@ const Contact = () => {
           placeholder='Write Message'
         />
       <br />
+      <motion.div     whileHover={{ scale: 1.1 }}    >
       <button className='text-white submitForm' type="submit">Submit</button>
+      </motion.div>
+      
+
     </form> 
     <motion.div
         initial={{ opacity: 0, y: 1000 }}

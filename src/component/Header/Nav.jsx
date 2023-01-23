@@ -14,11 +14,12 @@ const Nav = () => {
     setMenuOpen(false);
   }
 
- 
+
 
 
   return (
-    <nav className="flex  pt-8 items-center justify-between  text-white md:relative ">
+    <nav  
+    className="flex  pt-8 items-center justify-between  text-white md:relative ">
       <h4 className=' myName'>Badr Ghanbi</h4>
       {menuOpen && (
         <div className="absolute m-6 z-50 inset-0 bg-secondColor px-10 py-4  md:hidden">
