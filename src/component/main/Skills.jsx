@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import TagCloud from 'TagCloud';
-const Skills = React.memo(() => { 
+const Skills = () => { 
   const containerRef = useRef(null);
-
   useEffect(() => {
     const texts = [
       "HTML",
@@ -30,9 +29,8 @@ const Skills = React.memo(() => {
       itemClass: 'tagItems',
       direction: 100
     }
- return ()=> TagCloud(containerRef.current, texts, option);
+   return()=> TagCloud(containerRef.current, texts, option);
   }, []);
-
   return (
     <section id='skills' className='skills flex p-8 flex-col items-center justify-center'>
       <h2 className='text-white  text-xl md:text-3xl'>Skills</h2>
@@ -42,6 +40,6 @@ const Skills = React.memo(() => {
 
     </section>
   );
-});
+};
 
 export default Skills;
