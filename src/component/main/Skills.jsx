@@ -22,17 +22,20 @@ const Skills = () => {
     ];
 
     let option={
-      radius: 200,
+      radius: 280,
       maxSpeed: "fast",
       initSpeed: "normal",
       keep: true,
       itemClass: 'tagItems',
       direction: 100
     }
-   return()=> TagCloud(containerRef.current, texts, option);
+   
+     TagCloud(containerRef.current, texts, option);
+
   }, []);
+  console.log('running')
   return (
-    <section id='skills' className='skills flex p-8 flex-col items-center justify-center'>
+    <section id='skills' className='skills flex  flex-col items-center justify-center'>
       <h2 className='text-white  text-xl md:text-3xl'>Skills</h2>
       <div className="tagCloudWrraper">
         <span ref={containerRef} className='tagcloud'/> 

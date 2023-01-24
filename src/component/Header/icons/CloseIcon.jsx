@@ -12,6 +12,6 @@ const CloseIcon = (props) => {
 }
 
 export default CloseIcon
-
+  
 
 
