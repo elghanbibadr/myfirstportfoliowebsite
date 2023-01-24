@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 import TagCloud from 'TagCloud';
-
 const Skills = React.memo(() => { 
   const containerRef = useRef(null);
 
@@ -23,7 +22,7 @@ const Skills = React.memo(() => {
       "FRAMER MOTION"
     ];
 
-    const option={
+    let option={
       radius: 200,
       maxSpeed: "fast",
       initSpeed: "normal",
@@ -40,6 +39,7 @@ const Skills = React.memo(() => {
       <div className="tagCloudWrraper">
         <span ref={containerRef} className='tagcloud'/> 
       </div>
+
     </section>
   );
 });
