@@ -5,6 +5,7 @@ import shortenUrlCrpd  from '../../assets/shortenUrlCrpd.png'
 import passwordGenerator from '../../assets/passwordGenerator.png'
 import coffeSubscription from '../../assets/coffeSubscription.png'
 import storeDesign from "../../assets/ecommerceapp.png"
+import goodRenewable from "../../assets/desktopMap.png"
 export const data=[
     {
         name:" Ecommerce Store",
@@ -13,6 +14,14 @@ export const data=[
         technologie:["React","Tailwind","Local Storage"],
         demoLink:'https://audiophilestore1.netlify.app',
         githubLink:'https://github.com/elghanbibadr/autophileEcommerce',
+       },
+    {
+        name:" Good Renewable Energy",
+        src:goodRenewable,
+        desc:"GoodRenewable is in the process of running workshops and consultations across the UK.and this is a website for one of my clients and they help realise renewable energy projects with embedded community support",
+        technologie:["React","Tailwind","AOS Animation",],
+        demoLink:'https://goodrenewable.io/',
+        githubLink:'https://github.com/elghanbibadr/GoodRenewable',
        },
     {
      name:"Multi Step Form",
