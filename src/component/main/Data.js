@@ -4,15 +4,25 @@ import invoiceapp from '../../assets/invoiceapp.png'
 import shortenUrlCrpd  from '../../assets/shortenUrlCrpd.png'
 import passwordGenerator from '../../assets/passwordGenerator.png'
 import coffeSubscription from '../../assets/coffeSubscription.png'
+import storeDesign from "../../assets/ecommerceapp.png"
 export const data=[
     {
+        name:" Ecommerce Store",
+        src:storeDesign,
+        desc:"audiophile ecommerce store is an app that allows user to chose multiple items and add them to cart and store the chosesn item to local storage of their browser so if they refresh the browser the selected won't get lost",
+        technologie:["React","Tailwind","Local Storage"],
+        demoLink:'https://audiophilestore1.netlify.app',
+        githubLink:'https://github.com/elghanbibadr/autophileEcommerce',
+       },
+    {
      name:"Multi Step Form",
-     src:multiStepFormDesign,
+     src: multiStepFormDesign,
      desc:"A multi-step form is a web-based interface that allows users to complete a complex process in a step-by-step manner. These forms typically include several sections, each with its own set of fields and instructions",
      technologie:["html","css","React","formik"],
      demoLink:'https://grand-fenglisu-87ba76.netlify.app',
      githubLink:'https://github.com/elghanbibadr/MultiStepForm',
     },
+  
     {
      name:"devJobs",
      src:devJobs,
