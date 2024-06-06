@@ -17,6 +17,7 @@ const Skills = () => {
       "TAILWIND",
       "SASS",
       "API",
+      'REACT QUERY',
       "GITHUB",
       "FRAMER MOTION"
     ];

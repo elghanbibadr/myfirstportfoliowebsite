@@ -17,10 +17,10 @@ const Experience = () => {
         <div data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1000" className='  p-10 md:w-3/4'>
-            <p>2022-2023</p>
+            <p>2023-2024</p>
             <h3 className='text-white my-4'>Right Now</h3>
-            <p>
-            Right now, I'm working with ReactJS and Redux, trying to learn all I can think about them. I'm also starting to dabble in server-side rendering with Next.js and React Query.
+            <p>Right now, I'm leveraging my extensive freelancing experience as a front-end developer on Upwork. I specialize in creating front-end interfaces, taking projects from design to live websites. I have successfully completed 38 different projects, accumulating over 238 hours of work and earning more than $6,000.Right now
+
             </p>
         </div>
     </section>
