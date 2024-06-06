@@ -2,6 +2,8 @@ import React from 'react'
 import github from "../../assets/icon-github.svg"
 import twitter from "../../assets/twitter.png"
 import linkedin from "../../assets/linkedin.png"
+import upwork from "../../assets/upwork.png"
+
 import { motion } from 'framer-motion'
 const LetsConnect = () => {
   return (
@@ -16,6 +18,9 @@ const LetsConnect = () => {
             </a></motion.li>
             <motion.li  whileHover={{ scale: 1.1 }}><a target='_blank' href='https://twitter.com/GhanbiBadr'>
             <img className='transform scale-75 md:scale-100 h-10 w-10 mx-10' src={twitter} alt='twitter icon' />
+            </a></motion.li>
+            <motion.li  whileHover={{ scale: 1.1 }}><a target='_blank' href='https://www.upwork.com/freelancers/~015c5fa1a95af5c54d'>
+            <img className='transform scale-75 md:scale-100 h-10 w-10 mx-10' src={upwork} alt='upwrok icon' />
             </a></motion.li>
         </ul>
    </div>
