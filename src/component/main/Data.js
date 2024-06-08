@@ -2,7 +2,7 @@
 import playrom from '../../assets/PL3.png'
 import purist from '../../assets/pl4.png'
 import makerkit from '../../assets/m9.png'
-import storeDesign from "../../assets/audiophile.png"
+// import storeDesign from "../../assets/audiophile.png"
 import reactIcon from '../../assets/react.svg'
 import tailwindIcon from '../../assets/tailwind.png'
 import nextjsIcon from '../../assets/next-js.svg'
@@ -46,14 +46,14 @@ export const data=[
         
        },
    
-    {
-        name:" Ecommerce Store",
-        src:storeDesign,
-        desc:"audiophile ecommerce store is an app that allows user to chose multiple items and add them to cart and store the chosesn item to local storage of their browser so if they refresh the browser the selected won't get lost",
-        technologie:[{name:"React",icon:reactIcon},{name:"Tailwind ",icon:tailwindIcon}],
-        demoLink:'https://audiophilestore1.netlify.app',
-        githubLink:'https://github.com/elghanbibadr/autophileEcommerce',
+    // {
+    //     name:" Ecommerce Store",
+    //     src:storeDesign,
+    //     desc:"audiophile ecommerce store is an app that allows user to chose multiple items and add them to cart and store the chosesn item to local storage of their browser so if they refresh the browser the selected won't get lost",
+    //     technologie:[{name:"React",icon:reactIcon},{name:"Tailwind ",icon:tailwindIcon}],
+    //     demoLink:'https://audiophilestore1.netlify.app',
+    //     githubLink:'https://github.com/elghanbibadr/autophileEcommerce',
 
-       },
+    //    },
    
 ]
