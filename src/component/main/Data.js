@@ -41,7 +41,7 @@ export const data=[
         src:makerkit,
         desc:"makerkit is a SaaS Starter includes all the essential tools and resources you need to launch your project. with already built user authentication ,user profil sesttings ,dashboard panel and so much ,more ... !",
         technologie:[{name:"React",icon:reactIcon},{name:"Tailwind ",icon:tailwindIcon},{name:"Supabase ",icon:supabaseIcon},{name:"React Query ",icon:reactqueryIcon}],
-        demoLink:'https://makerkitv2.netlify.app',
+        demoLink:'https://makerkitv3.netlify.app/',
         githubLink:'https://github.com/elghanbibadr/makerkit1',
         
        },
